@@ -21,7 +21,22 @@ namespace exs9
                 }
                 Console.WriteLine();
             }
+           
+            Console.WriteLine("Enter row width: ");
+            int rowWidth2 = int.Parse(Console.ReadLine());
+            Console.Write("Enter number of rows: ");
+            int numRows2 = int.Parse(Console.ReadLine());
+            
+            Console.WriteLine("");
+            for (int i2 = 1; i2 <= numRows2; i2++)
+            {
+                for (int j2 = 1; j2 <= rowWidth2; j2++)
+                {
+                    Console.Write("*");
 
+                }
+                Console.WriteLine();
+            }
 
 
 
